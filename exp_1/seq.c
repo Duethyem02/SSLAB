@@ -32,7 +32,7 @@ int main()
 		{
 			printf("File Not Allocated\n");
 		}
-		printf("Do you want to continue?(1.yes/2.No):");
+		printf("Do you want to continue?(1.yes/0.No):");
 		scanf("%d",&c);
 	}while(c!=0);
 	return 0;
