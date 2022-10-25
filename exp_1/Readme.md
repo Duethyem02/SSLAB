@@ -47,3 +47,30 @@ Enter index of file:34
 34 is already allocated
 Do you want to continue?(1.yes/0.No):0
 ```
+#### Linked
+```
+Enter total number of blocks in the disk:50
+Enter number of blocks already allocated:5
+Enter index of already allocated blocks:1 3 5 7 9
+Enter starting and length of file:0 5
+Allocated blocks:
+-->0
+1 is already allocated
+-->2
+3 is already allocated
+-->4
+5 is already allocated
+-->6
+7 is already allocated
+-->8
+
+Do you want to continue?(1.yes/2.No):1
+Enter starting and length of file:9 2
+Allocated blocks:
+9 is already allocated
+-->10
+-->11
+
+Do you want to continue?(1.yes/2.No):0
+
+```
