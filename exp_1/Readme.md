@@ -64,13 +64,13 @@ Allocated blocks:
 7 is already allocated
 -->8
 
-Do you want to continue?(1.yes/2.No):1
+Do you want to continue?(1.yes/0.No):1
 Enter starting and length of file:9 2
 Allocated blocks:
 9 is already allocated
 -->10
 -->11
 
-Do you want to continue?(1.yes/2.No):0
+Do you want to continue?(1.yes/0.No):0
 
 ```
