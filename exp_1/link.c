@@ -39,7 +39,7 @@ int main()
 				a[s++]=1;
 			}
 		}
-		printf("\nDo you want to continue?(1.yes/2.No):");
+		printf("\nDo you want to continue?(1.yes/0.No):");
 		scanf("%d",&c);
 	}while(c!=0);
 	return 0;
