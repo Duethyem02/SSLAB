@@ -15,7 +15,7 @@ int main()
 
 void passOne(char label[10],char opcode[10],char operand[10],char code[10],char mnemonic[3])
 {
-	int locctr,start,length;
+	   int locctr,start,length;
         FILE *fp1,*fp2,*fp3,*fp4,*fp5;
         fp1=fopen("input.txt","r");
         fp2=fopen("optab.txt","r");
@@ -42,7 +42,7 @@ void passOne(char label[10],char opcode[10],char operand[10],char code[10],char 
         		fprintf(fp3,"%s\t%d\n",label,locctr);
         	}
         	fscanf(fp2,"%s\t%s",code,mnemonic);
-        	while(strcmp(opcode,"END")!=0)
+        	while(strcmp(code,"END")!=0)
         	{
         		if(strcmp(opcode,code)==0)
         		{
@@ -84,7 +84,7 @@ void passOne(char label[10],char opcode[10],char operand[10],char code[10],char 
 void display()
 {
 	char str;
-	FILE *fp1,*fp2,*fp3;
+	FILE *fp1, *fp2, *fp3;
 	printf("\nThe contents of Input Table:\n\n");
 	fp1=fopen("input.txt","r");
 	str=fgetc(fp1);
