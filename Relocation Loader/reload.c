@@ -95,7 +95,7 @@ void main()
 			bitmask_convert(bitmask);
 			fscanf(objptr,"%s",rec);
 		}
-		if(bit[bitmask_index]==1)
+		if(bit[bitmask_index]=='1')
 		{
 			for(i=0;i<6;++i)
 			{
