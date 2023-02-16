@@ -23,7 +23,7 @@ int main()
   else if(strcmp(input,"T")==0)
   {
    l=length;
-   ptaddr=addr;
+   ptaddr=taddr-1;
    fscanf(fp1,"%x%x%s",&taddr,&length,input);
    addr=taddr;
    if(w==0)
